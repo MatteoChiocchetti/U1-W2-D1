@@ -25,8 +25,6 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let myName = "Matteo";
-
-myName = "Matteo";
 console.log(myName);
 // console.log(typeof myName);
 
@@ -93,3 +91,4 @@ let name2 = "John";
 name2 = "John";
 
 console.log(name1 === name2);
+console.log(name1.toLowerCase === name2.toLowerCase);
