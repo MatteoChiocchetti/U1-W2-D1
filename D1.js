@@ -42,6 +42,7 @@ let addition = 12;
 addition = addition + myNumber;
 // addition += myNumber;
 console.log(addition);
+// console.log(typeof addition);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -87,7 +88,7 @@ let name1 = "john";
 name1 = "john";
 
 let name2 = "John";
-/* let result = "name2".toLowerCase();*/
+// let result = "John".toLowerCase();
 
 name2 = "John";
 
