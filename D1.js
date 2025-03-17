@@ -35,12 +35,23 @@ console.log(myName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let myNumber = 20;
+
+let addition = 12;
+
+addition = addition + myNumber;
+// addition += myNumber;
+console.log(addition);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12;
+
+x = 12;
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -48,12 +59,21 @@ console.log(myName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+myName = "chiocchetti";
+
+console.log(myName);
+/* D1.js:29 Uncaught TypeError: Assignment to constant variable.
+    at D1.js:29:8 /*
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let number = 4;
+
+addition = x - number;
+console.log(addition);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -62,3 +82,13 @@ console.log(myName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john";
+
+name1 = "john";
+
+let name2 = "John";
+/* let result = "name2".toLowerCase();*/
+
+name2 = "John";
+
+console.log(name1 === name2);
